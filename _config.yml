@@ -1,0 +1,69 @@
+# External plugins (GitHub Pages friendly)
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: Centrarium
+subtitle: "A simple yet classy theme for your Jekyll website or blog"
+email: blcentra@gmail.com
+name: Ben Centra
+description: >
+  A simple yet classy theme for your Jekyll website or blog.
+baseurl: "" # hosting at root
+url: ""     # GitHub Pages will fill this automatically
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
+
+# Pagination Settings (standard Jekyll paginate)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social icons and sharing options
+social:
+  - name: Twitter
+    icon: twitter
+    username: TheBenCentra
+    url: https://twitter.com/TheBenCentra
+    desc: Follow me on Twitter
+    share: true
+
+  - name: Facebook
+    icon: facebook
+    username: thebencentra
+    url: ""
+    desc: Friend me on Facebook
+    share: true
+
+  - name: GitHub
+    icon: github
+    username: bencentra
+    url: https://github.com/bencentra
+    desc: Fork me on GitHub
+    share: false
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Ben Centra
+    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    desc: Connect with me on LinkedIn
+    share: true
+
+# Social sharing protocols
+protocols:
+  fb_image: "/assets/logo.png"
+  fb_image_width: 612
+  fb_image_height: 605
+  fb_image_type: "image/png"
+  twitter_image: "/assets/logo.png"
+  os_repo: "https://github.com/bencentra/centrarium.com"
+  os_rcs_type: "git"
+  os_src: "git@github.com:bencentra/centrarium.com.git"
