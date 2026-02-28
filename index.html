@@ -7,7 +7,8 @@ layout: default
   <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
     <div class="scrim {% if site.cover %}has-cover{% endif %}">
       <header class="site-header">
-        <h1 class="title">{{ site.title }}</h1>
+        <!-- <h1 class="title">{{ site.title }}  </h1> -->
+        <h1 class="title"> <br> </h1>
         {% if site.subtitle %}
           <p class="subtitle">{{ site.subtitle }}</p>
         {% endif %}
@@ -28,7 +29,7 @@ layout: default
           <section class="post-meta">
             <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
             {% if post.categories.size > 0 %}
-              <div class="post-categories">in 
+              <div class="post-categories"> 
                 {% for cat in post.categories %}
                   <a href="{{ site.baseurl }}/categories/{{ cat | downcase | replace: ' ', '-' }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
                 {% endfor %}

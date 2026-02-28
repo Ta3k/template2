@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: O nas
+permalink: /o-nas/
 main_nav: true
 ---
 
